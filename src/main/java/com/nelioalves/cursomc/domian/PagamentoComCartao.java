@@ -1,7 +1,10 @@
 package com.nelioalves.cursomc.domian;
 
+import javax.persistence.Entity;
+
 import com.nelioalves.cursomc.domian.enums.EstadoPagamento;
 
+@Entity
 public class PagamentoComCartao extends Pagamento{
 	private static final long serialVersionUID = 1L; 
 
